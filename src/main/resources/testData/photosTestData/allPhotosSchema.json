@@ -1,0 +1,65 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "albumId": {
+        "$id": "/properties/albumId",
+        "type": "integer",
+        "title": "The Albumid Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": 0,
+        "examples": [
+          4
+        ]
+      },
+      "id": {
+        "$id": "/properties/id",
+        "type": "integer",
+        "title": "The Id Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": 0,
+        "examples": [
+          155
+        ]
+      },
+      "title": {
+        "$id": "/properties/title",
+        "type": "string",
+        "title": "The Title Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "occaecati sed earum ab ut vel quibusdam perferendis nihil"
+        ]
+      },
+      "url": {
+        "$id": "/properties/url",
+        "type": "string",
+        "title": "The Url Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "http://placehold.it/600/877cd8"
+        ]
+      },
+      "thumbnailUrl": {
+        "$id": "/properties/thumbnailUrl",
+        "type": "string",
+        "title": "The Thumbnailurl Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "http://placehold.it/150/877cd8"
+        ]
+      }
+    },
+    "required": [
+      "albumId",
+      "id",
+      "title",
+      "url",
+      "thumbnailUrl"
+    ]
+  }
+}

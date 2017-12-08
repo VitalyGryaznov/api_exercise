@@ -1,0 +1,54 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "userId": {
+        "$id": "/properties/userId",
+        "type": "integer",
+        "title": "The Userid Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": 0,
+        "examples": [
+          3
+        ]
+      },
+      "id": {
+        "$id": "/properties/id",
+        "type": "integer",
+        "title": "The Id Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": 0,
+        "examples": [
+          47
+        ]
+      },
+      "title": {
+        "$id": "/properties/title",
+        "type": "string",
+        "title": "The Title Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "nam qui rerum fugiat accusamus"
+        ]
+      },
+      "completed": {
+        "$id": "/properties/completed",
+        "type": "boolean",
+        "title": "The Completed Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": false,
+        "examples": [
+          false
+        ]
+      }
+    },
+    "required": [
+      "userId",
+      "id",
+      "title",
+      "completed"
+    ]
+  }
+}

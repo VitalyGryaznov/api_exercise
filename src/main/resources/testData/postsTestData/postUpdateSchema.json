@@ -1,0 +1,36 @@
+{
+  "definitions": {},
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "title": "The Id Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "title": {
+      "type": "string",
+      "title": "The Title Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
+      ]
+    },
+    "body": {
+      "type": "string",
+      "title": "The Body Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+      ]
+    }
+  },
+  "required": [
+    "id"
+  ]
+}

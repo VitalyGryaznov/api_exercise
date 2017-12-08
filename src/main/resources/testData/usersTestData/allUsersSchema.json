@@ -1,0 +1,182 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "$id": "/properties/id",
+        "type": "integer",
+        "title": "The Id Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": 0,
+        "examples": [
+          7
+        ]
+      },
+      "name": {
+        "$id": "/properties/name",
+        "type": "string",
+        "title": "The Name Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "Kurtis Weissnat"
+        ]
+      },
+      "username": {
+        "$id": "/properties/username",
+        "type": "string",
+        "title": "The Username Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "Elwyn.Skiles"
+        ]
+      },
+      "email": {
+        "$id": "/properties/email",
+        "type": "string",
+        "title": "The Email Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "Telly.Hoeger@billy.biz"
+        ]
+      },
+      "address": {
+        "$id": "/properties/address",
+        "type": "object",
+        "properties": {
+          "street": {
+            "$id": "/properties/address/properties/street",
+            "type": "string",
+            "title": "The Street Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Rex Trail"
+            ]
+          },
+          "suite": {
+            "$id": "/properties/address/properties/suite",
+            "type": "string",
+            "title": "The Suite Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Suite 280"
+            ]
+          },
+          "city": {
+            "$id": "/properties/address/properties/city",
+            "type": "string",
+            "title": "The City Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Howemouth"
+            ]
+          },
+          "zipcode": {
+            "$id": "/properties/address/properties/zipcode",
+            "type": "string",
+            "title": "The Zipcode Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "58804-1099"
+            ]
+          },
+          "geo": {
+            "$id": "/properties/address/properties/geo",
+            "type": "object",
+            "properties": {
+              "lat": {
+                "$id": "/properties/address/properties/geo/properties/lat",
+                "type": "string",
+                "title": "The Lat Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "24.8918"
+                ]
+              },
+              "lng": {
+                "$id": "/properties/address/properties/geo/properties/lng",
+                "type": "string",
+                "title": "The Lng Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "21.8984"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "phone": {
+        "$id": "/properties/phone",
+        "type": "string",
+        "title": "The Phone Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "210.067.6132"
+        ]
+      },
+      "website": {
+        "$id": "/properties/website",
+        "type": "string",
+        "title": "The Website Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "elvis.io"
+        ]
+      },
+      "company": {
+        "$id": "/properties/company",
+        "type": "object",
+        "properties": {
+          "name": {
+            "$id": "/properties/company/properties/name",
+            "type": "string",
+            "title": "The Name Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Johns Group"
+            ]
+          },
+          "catchPhrase": {
+            "$id": "/properties/company/properties/catchPhrase",
+            "type": "string",
+            "title": "The Catchphrase Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Configurable multimedia task-force"
+            ]
+          },
+          "bs": {
+            "$id": "/properties/company/properties/bs",
+            "type": "string",
+            "title": "The Bs Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "generate enterprise e-tailers"
+            ]
+          }
+        }
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "username",
+      "email"
+    ]
+  }
+}

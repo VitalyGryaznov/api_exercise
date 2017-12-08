@@ -1,0 +1,65 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "postId": {
+        "$id": "/properties/postId",
+        "type": "integer",
+        "title": "The Postid Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": 0,
+        "examples": [
+          1
+        ]
+      },
+      "id": {
+        "$id": "/properties/id",
+        "type": "integer",
+        "title": "The Id Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": 0,
+        "examples": [
+          1
+        ]
+      },
+      "name": {
+        "$id": "/properties/name",
+        "type": "string",
+        "title": "The Name Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "id labore ex et quam laborum"
+        ]
+      },
+      "email": {
+        "$id": "/properties/email",
+        "type": "string",
+        "title": "The Email Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "Eliseo@gardner.biz"
+        ]
+      },
+      "body": {
+        "$id": "/properties/body",
+        "type": "string",
+        "title": "The Body Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+        ]
+      }
+    },
+    "required": [
+      "postId",
+      "id",
+      "name",
+      "email",
+      "body"
+    ]
+  }
+}
