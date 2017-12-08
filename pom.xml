@@ -26,7 +26,6 @@
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>3.0.1</version>
-            <!--<scope>test</scope>-->
         </dependency>
 
         <dependency>
@@ -40,12 +39,6 @@
             <artifactId>json-path</artifactId>
             <version>3.0.1</version>
         </dependency>
-
-        <!--<dependency>-->
-            <!--<groupId>org.codehaus.groovy</groupId>-->
-            <!--<artifactId>groovy-all</artifactId>-->
-            <!--<version>2.3.7</version>-->
-        <!--</dependency>-->
 
         <dependency>
             <groupId>org.spockframework</groupId>
@@ -67,11 +60,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!--<dependency>-->
-            <!--<groupId>uk.org.lidalia</groupId>-->
-            <!--<artifactId>sysout-over-slf4j</artifactId>-->
-            <!--<version>1.0.2</version>-->
-        <!--</dependency>-->
         <dependency>
 
             <groupId>org.slf4j</groupId>
@@ -145,6 +133,5 @@
 
         </plugins>
     </build>
-
 
 </project>
