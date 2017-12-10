@@ -6,8 +6,8 @@ I had the following plan for testing:
   - Investigate connections between endpoints. Create complicated tests, based on this connections
 
  What I actually tested in required time frame:
-  - Create a set of tests, that make one GET request for each endpoint, validate response code and json schema
-  - Created set of simple positive test from 'posts' endpoint  (see src/test/groovy/PostsTest.groovy). But didn't add some simple positive tests for static  data
+  - Created a set of tests, that make one GET request for each endpoint, validate response code and json schema
+  - Created set of simple positive test from 'posts' endpoint  (see src/test/groovy/PostsTest.groovy). But didn't add some simple positive tests for static data
 
 # Framework design
 Tools:
